@@ -1,9 +1,7 @@
 @Library("my-library") _
 pipeline {
-    agent {
-        label "linux"
-    }
-    stages {
+    agent any  
+     stages {
         stage('Example') {
             steps {
                 sayHello("Huy","Gpay")
