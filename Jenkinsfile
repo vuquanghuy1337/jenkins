@@ -1,6 +1,4 @@
-libraries {
-     lib('my-library')
- }
+@Library('my-library') _
 pipeline {
     agent any  
      stages {
