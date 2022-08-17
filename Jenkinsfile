@@ -1,5 +1,5 @@
 libraries {
-     lib('pipeline-library-demo')
+     lib('my-library')
  }
 pipeline {
     agent any  
