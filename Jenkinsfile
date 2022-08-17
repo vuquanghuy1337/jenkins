@@ -1,4 +1,6 @@
-@Library("my-library") _
+libraries {
+     lib('pipeline-library-demo')
+ }
 pipeline {
     agent any  
      stages {
