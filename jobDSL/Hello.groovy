@@ -18,3 +18,19 @@ pipelineJob('github-demo') {
         }
     }
 }
+
+pipelineJob('github-demo2') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+                        github('vuquanghuy1337/jenkins')
+                    }
+                }
+            }
+            scriptPath('vars/github2.groovy')
+        }
+    }
+}
+
