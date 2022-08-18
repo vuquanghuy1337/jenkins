@@ -29,7 +29,7 @@ pipelineJob('github-demo2') {
                     }
                 }
             }
-            scriptPath('vars/github2.groovy')
+            scriptPath('vars/Jenkinsfile')
         }
     }
 }
