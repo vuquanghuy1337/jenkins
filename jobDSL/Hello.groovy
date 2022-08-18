@@ -14,7 +14,7 @@ pipelineJob('github-demo') {
                     }
                 }
             }
-            scriptPath('vars/sayHello.groovy')
+            scriptPath('Jenkinsfile')
         }
     }
 }
